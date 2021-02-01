@@ -1,4 +1,4 @@
-<div style="display:flex;justify-content:center;">
+<div style="display:flex;justify-content:center;width:100%;">
   <img src="https://user-images.githubusercontent.com/46889813/106451545-c7cef300-6497-11eb-80d9-e51c9fc3cd33.png" heigt="300" width="300"/>
 </div>
 
