@@ -1,0 +1,1 @@
+{"version":3,"file":"GQLQueryClient.d.ts","sourceRoot":"","sources":["../../src/client/GQLQueryClient.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,iBAAiB,CAAC;AAChD,OAAO,EAAE,WAAW,EAAE,MAAM,gCAAgC,CAAC;AAE7D,UAAU,oBAAoB;IAC5B,UAAU,EAAE;QACV,GAAG,EAAE,MAAM,CAAC;KAEb,CAAC;IACF,OAAO,CAAC,EAAE,WAAW,CAAC;CACvB;AAED,qBAAa,cAAe,SAAQ,aAAa;gBACnC,MAAM,EAAE,oBAAoB;CAGzC"}
