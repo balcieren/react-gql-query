@@ -10,6 +10,7 @@
 ## Install
 
 ```sh
+npm install react-query react-gql-query
 yarn add react-query react-gql-query
 ```
 
