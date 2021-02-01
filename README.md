@@ -18,7 +18,7 @@
 </ul>
 
 ## Usage
-<a href="#">DEMO</a>
+<a href="https://codesandbox.io/s/pensive-colden-bxlpz">DEMO</a>
 
 ## Future Features
 <ul>
