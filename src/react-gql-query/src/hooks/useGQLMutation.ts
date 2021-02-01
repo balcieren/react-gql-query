@@ -5,9 +5,9 @@ import { DocumentNode } from "graphql";
 
 export function useGQLMutation<
   TData = any,
-  TError = unknown,
-  TVariables = void,
-  TContext = unknown
+  TError = any,
+  TVariables = any,
+  TContext = any
 >(
   action: { mutation: string | DocumentNode; variables?: TVariables },
   config?: UseMutationOptions<TData, TError, TVariables, TContext>
@@ -16,8 +16,8 @@ export function useGQLMutation<
 
   const fetchData = async (variables: TVariables) => {
     return await client?.request(
-      action.mutation,
-      action.variables || variables
+      action?.mutation,
+      action?.variables || variables
     );
   };
 

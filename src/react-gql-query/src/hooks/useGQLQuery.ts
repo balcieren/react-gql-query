@@ -5,7 +5,7 @@ import { DocumentNode } from "graphql";
 
 export function useGQLQuery<
   TQueryFnData = any,
-  TError = unknown,
+  TError = any,
   TVariables = any,
   TData = TQueryFnData
 >(
@@ -16,7 +16,7 @@ export function useGQLQuery<
   const { client } = useContext(GQLQueryClientContext);
 
   const fetchData = async () =>
-    await client?.request(action.query, action.variables);
+    await client?.request(action?.query, action?.variables);
 
   return useQuery<TQueryFnData, TError, TData>(key, fetchData, config);
 }

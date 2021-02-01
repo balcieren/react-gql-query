@@ -7,7 +7,7 @@ const GQLQueryClientProvider_1 = require("../providers/GQLQueryClientProvider");
 function useGQLMutation(action, config) {
     const { client } = react_1.useContext(GQLQueryClientProvider_1.GQLQueryClientContext);
     const fetchData = async (variables) => {
-        return await client?.request(action.mutation, action.variables || variables);
+        return await client?.request(action?.mutation, action?.variables || variables);
     };
     return react_query_1.useMutation((variables) => fetchData(variables), config);
 }

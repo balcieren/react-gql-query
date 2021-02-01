@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 import App from "./App";
-import { GQLQueryClientProvider, GQLQueryClient } from "react-gql-query";
+import { GQLQueryClientProvider, GQLQueryClient } from "./react-gql-query/src";
 
 const queryClient = new QueryClient();
 
