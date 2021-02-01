@@ -17,6 +17,9 @@
   <li>Useable with react query package.</li>
 </ul>
 
+## Usage
+<a href="#">DEMO</a>
+
 ## Future Features
 <ul>
   <li>Use graphql subscription via useGQLSubscription hook in client.</li>
