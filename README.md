@@ -1,4 +1,8 @@
-<img src="https://user-images.githubusercontent.com/46889813/106451545-c7cef300-6497-11eb-80d9-e51c9fc3cd33.png" heigt="200" width="200"/>
+<center>
+  <img src="https://user-images.githubusercontent.com/46889813/106451545-c7cef300-6497-11eb-80d9-e51c9fc3cd33.png" heigt="200" width="200"/>
+</center>
+
+
 
 # Welcome to react-gql-query 👋
 [![Version](https://img.shields.io/npm/v/react-gql-query.svg)](https://www.npmjs.com/package/react-gql-query)
