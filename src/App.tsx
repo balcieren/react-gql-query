@@ -1,6 +1,6 @@
 import gql from "graphql-tag";
 import { FC, useState } from "react";
-import { useGQLMutation, useGQLQuery } from "./react-gql-query/src";
+import { useGQLMutation } from "react-gql-query";
 
 const CREATE_POST_MUTATION = gql`
   mutation($input: CreatePostInput!) {
@@ -97,20 +97,20 @@ const GET_USER_QUERY = gql`
   }
 `;
 function App() {
-  const { data, isLoading } = useGQLQuery<Data, any, QueryVariables>(
-    ["user", 1],
-    { query: GET_USER_QUERY, variables: { id: 1 } },
-    {
-      onSuccess: () => console.log("Fetch is successful!"),
-    }
-  );
-  if (isLoading) return <div>Loading ...</div>;
+  // const { data, isLoading } = useGQLQuery<Data, any, QueryVariables>(
+  //   ["user", 1],
+  //   { query: GET_USER_QUERY, variables: { id: 1 } },
+  //   {
+  //     onSuccess: () => console.log("Fetch is successful!"),
+  //   }
+  // );
+  // if (isLoading) return <div>Loading ...</div>;
 
   return (
     <div>
-      <h1>{data?.user.id}</h1>
+      {/* <h1>{data?.user.id}</h1>
       <h2>{data?.user.username}</h2>
-      <h3>{data?.user.email}</h3>
+      <h3>{data?.user.email}</h3> */}
       <CreatePost />
     </div>
   );
