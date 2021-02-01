@@ -1,10 +1,13 @@
 {
   "name": "react-gql-query",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": {
     "name": "Eren Balcı"
   },
-  "main": "index.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "main": "src/index.ts",
   "description": "react query with gql",
   "license": "MIT",
   "devDependencies": {
