@@ -20,54 +20,6 @@
 ## Usage
 <a href="https://codesandbox.io/s/pensive-colden-bxlpz">DEMO</a>
 
-
--Create Provider
-```js 
-import { QueryClient, QueryClientProvider } from "react-query";
-import { GQLQueryClientProvider, GQLQueryClient } from "react-gql-query";
-import { ReactQueryDevtools } from "react-query/devtools";
-
-const queryClient = new QueryClient();
-const gqlQueryClient = new GQLQueryClient({
-  connection: { uri: "https://pokeapi.dev/" }
-});
-
-export default function App({ Component, pageProps }) {
-  return (
-    <QueryClientProvider client={queryClient}>
-      <GQLQueryClientProvider client={gqlQueryClient}>
-        <Component {...pageProps} />
-      </GQLQueryClientProvider>
-      <ReactQueryDevtools initialIsOpen />
-    </QueryClientProvider>
-  );
-}
-```
-
--useGQLQuery Hook
-
-```js 
-import { gql, useGQLQuery } from "react-gql-query";
-
-const GET_POKEMONS = gql`
-  query pokemons {
-    pokemons(limit: 6, offset: 0) {
-      results {
-        avatar
-        name
-      }
-    }
-  }
-`;
-
-export default function IndexPage() {
-  const { data } = useGQLQuery("pokemons", GET_POKEMONS);
-  console.log(data);
-  return <div>Hello</div>;
-}
-```
-
-
 ## Future Features
 <ul>
   <li>Use graphql subscription via useGQLSubscription hook in client.</li>
