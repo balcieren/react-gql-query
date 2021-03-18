@@ -22,20 +22,16 @@
 
 <ul>
   <li>
-    <p>Useage of useGQLQuery</p>
-    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/User.js">DEMO</a>
+    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/User.js">Useage of useGQLQuery</a>
   </li>
    <li>
-    <p>Useage of useGQLMutation</p>
-    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/Post.js">DEMO</a>
+    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/Post.js">Useage of useGQLMutation</a>
   </li>
   <li>
-    <p>Useage of useGQLInfiniteQuery</p>
-    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/Pagination.js:240-241">DEMO</a>
+    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/Pagination.js:240-241">Useage of useGQLInfiniteQuery</a>
   </li>
    <li>
-    <p>Useage of useGQLQueryClient</p>
-    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/NormalFetch.js">DEMO</a>
+    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/NormalFetch.js">Useage of useGQLQueryClient</a>
   </li>
 </ul>
 
