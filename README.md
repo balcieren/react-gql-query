@@ -21,6 +21,7 @@
 <a href="https://codesandbox.io/s/pensive-colden-bxlpz">DEMO</a>
 
 
+##Create Provider##
 ```js 
 import { QueryClient, QueryClientProvider } from "react-query";
 import { GQLQueryClientProvider, GQLQueryClient } from "react-gql-query";
