@@ -46,7 +46,7 @@ export default function App({ Component, pageProps }) {
 
 -useGQLQuery Hook
 
-````js 
+```js 
 import { gql, useGQLQuery } from "react-gql-query";
 
 const GET_POKEMONS = gql`
