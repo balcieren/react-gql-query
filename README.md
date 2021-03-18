@@ -20,6 +20,29 @@
 ## Usage
 <a href="https://codesandbox.io/s/pensive-colden-bxlpz">DEMO</a>
 
+
+```js 
+import { QueryClient, QueryClientProvider } from "react-query";
+import { GQLQueryClientProvider, GQLQueryClient } from "react-gql-query";
+import { ReactQueryDevtools } from "react-query/devtools";
+
+const queryClient = new QueryClient();
+const gqlQueryClient = new GQLQueryClient({
+  connection: { uri: "https://pokeapi.dev/" }
+});
+
+export default function App({ Component, pageProps }) {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <GQLQueryClientProvider client={gqlQueryClient}>
+        <Component {...pageProps} />
+      </GQLQueryClientProvider>
+      <ReactQueryDevtools initialIsOpen />
+    </QueryClientProvider>
+  );
+}
+```
+
 ## Future Features
 <ul>
   <li>Use graphql subscription via useGQLSubscription hook in client.</li>
