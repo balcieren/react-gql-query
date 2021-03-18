@@ -14,7 +14,7 @@
 ## Features
 <ul>
   <li>Fetch to graphql api via hooks.</li>
-  <li>Useable with react query package.</li>
+  <li>Must be used with react query package.</li>
 </ul>
 
 ## Usage
@@ -22,16 +22,16 @@
 
 <ul>
   <li>
-    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/User.js">Useage of useGQLQuery</a>
+    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/User.js">Usage of useGQLQuery</a>
   </li>
    <li>
-    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/Post.js">Useage of useGQLMutation</a>
+    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/Post.js">Usage of useGQLMutation</a>
   </li>
   <li>
-    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/Pagination.js:240-241">Useage of useGQLInfiniteQuery</a>
+    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/Pagination.js:240-241">Usage of useGQLInfiniteQuery</a>
   </li>
    <li>
-    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/NormalFetch.js">Useage of useGQLQueryClient</a>
+    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/NormalFetch.js">Usage of useGQLQueryClient</a>
   </li>
 </ul>
 
