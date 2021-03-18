@@ -20,6 +20,25 @@
 ## Usage
 <a href="https://codesandbox.io/s/pensive-colden-bxlpz">DEMO</a>
 
+<ul>
+  <li>
+    <p>Useage of useGQLQuery</p>
+    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/User.js">DEMO</a>
+  </li>
+   <li>
+    <p>Useage of useGQLMutation</p>
+    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/Post.js">DEMO</a>
+  </li>
+  <li>
+    <p>Useage of useGQLInfiniteQuery</p>
+    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/Pagination.js:240-241">DEMO</a>
+  </li>
+   <li>
+    <p>Useage of useGQLQueryClient</p>
+    <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/NormalFetch.js">DEMO</a>
+  </li>
+</ul>
+
 ## Future Features
 <ul>
   <li>Use graphql subscription via useGQLSubscription hook in client.</li>
