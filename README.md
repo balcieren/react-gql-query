@@ -21,7 +21,7 @@
 <a href="https://codesandbox.io/s/pensive-colden-bxlpz">DEMO</a>
 
 
-##Create Provider##
+-Create Provider
 ```js 
 import { QueryClient, QueryClientProvider } from "react-query";
 import { GQLQueryClientProvider, GQLQueryClient } from "react-gql-query";
@@ -43,6 +43,30 @@ export default function App({ Component, pageProps }) {
   );
 }
 ```
+
+-useGQLQuery Hook
+
+````js 
+import { gql, useGQLQuery } from "react-gql-query";
+
+const GET_POKEMONS = gql`
+  query pokemons {
+    pokemons(limit: 6, offset: 0) {
+      results {
+        avatar
+        name
+      }
+    }
+  }
+`;
+
+export default function IndexPage() {
+  const { data } = useGQLQuery("pokemons", GET_POKEMONS);
+  console.log(data);
+  return <div>Hello</div>;
+}
+```
+
 
 ## Future Features
 <ul>
