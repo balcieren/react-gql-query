@@ -1,49 +1,23 @@
 {
   "name": "react-gql-query",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.53",
-    "@types/react-dom": "^16.9.8",
-    "graphql": "^15.5.0",
-    "graphql-request": "^3.4.0",
-    "graphql-subscriptions-client": "^0.16.0",
-    "graphql-tag": "^2.11.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-query": "^3.6.0",
-    "react-scripts": "4.0.1",
-    "typescript": "^4.0.3",
-    "web-vitals": "^0.2.4"
-  },
-  "types": "index.d.ts",
+  "version": "2.0.7",
+  "main": "./lib/index.js",
+  "types": "lib",
+  "author": "Eren BALCI",
+  "license": "MIT",
+  "private": false,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "tsc"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "graphql": "^15.5.0",
+    "graphql-request": "^3.4.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "peerDependencies": {
+    "react": ">=16",
+    "react-query": ">=3.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.3"
   }
 }
