@@ -35,10 +35,12 @@
   </li>
 </ul>
 
+## Next.js SSR 
+<a href="https://codesandbox.io/s/pensive-hoover-87sb7?file=/pages/_app.js">DEMO</a>
+
 ## Future Features
 <ul>
   <li>Use graphql subscription via useGQLSubscription hook in client.</li>
-  <li>Next.js SSR Fetch.</li>
 </ul>
 
 
