@@ -20,6 +20,7 @@
 ## Usage
 <a href="https://codesandbox.io/s/pensive-colden-bxlpz">DEMO</a>
 
+Hooks
 <ul>
   <li>
     <a href="https://codesandbox.io/s/pensive-colden-bxlpz?file=/src/components/js/User.js">Usage of useGQLQuery</a>
